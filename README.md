@@ -1,1 +1,4 @@
 # CBAStage2
+This repo contains a virtual environment, an app.py where all the code is contained, and a requirements.txt which contains a list of packages and/or libraries that need to be installed for the project to work.
+I set up the MySQL database in through the MySQL terminal, and afterwards, it later appeared in my MySQL workspace.  The database is called 'storedata' and has a table named 'sales'.
+The app.py connects to the database and interacts with it, being able to execute queries, read data, return it, and add rows to the table.  There are also two endpoints: one GET and one POST.  The GET endpoint allows the user to find a list of rows in the table between the range of two dates.  The POST endpoint allows the user to add a new row to the table.
